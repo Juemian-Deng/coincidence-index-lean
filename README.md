@@ -1,6 +1,6 @@
 # Coincidence index and Lean proofs
 
-Private preparation repository. Keep this repository private until the owner explicitly approves publication. No public release, deployment, or license grant is made here.
+Public research repository containing Lean proof sources and verification evidence. No deployment or license grant is made here.
 
 ## Contents and claim boundaries
 
@@ -63,6 +63,6 @@ python3 scripts/verify.py --replay --project all \
 
 The original evidence manifest describes the larger verification ZIP; large full dependency graphs and unrelated evidence members are intentionally not copied into this repository. Use `repository_sha256.json` to check this repository, not the original evidence manifest as a closed repository listing. Historical receipts retain original execution paths as provenance; they are not paths expected on your machine.
 
-No license has been selected. Dependencies retain their own licenses. Public distribution needs an owner decision.
+No license has been selected. Dependencies retain their own licenses. Any license grant requires an owner decision.
 
 [中文说明](README.zh-CN.md)
