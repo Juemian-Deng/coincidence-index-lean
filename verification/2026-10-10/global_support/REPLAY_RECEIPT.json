@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "source_modules": 34,
+  "all_local_declarations": 506,
+  "endpoint_transitive_constants": 31185,
+  "recursive_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "fresh_kernel_replay_exit": null,
+  "fresh_kernel_replay_status": "NOT_REQUESTED",
+  "audit_output_only_relocations": [
+    {
+      "module": "StatementAudit",
+      "original_sha256": "b724cc0ea3acaa03f2bf36f24a7ace757f3bd3f7a8f9f7344022835778ec3fde",
+      "replay_sha256": "0a95d252e1b34b2b4cf4b11eaf90e28279a3556c61b72df28d138cf0718b1a29",
+      "only_change": "Replace the original audit output directory literal with the chosen replay output directory."
+    },
+    {
+      "module": "AllDeclarationAudit",
+      "original_sha256": "5a2418d9e234fd7a67edb28620cf03498bbbed453ffeef3c8b29643e1f2eed21",
+      "replay_sha256": "b37c42d1974f4a4013974d69a37b2025093b2d6a5ae7be4e2a36ac9c4fad5106",
+      "only_change": "Replace the original audit output directory literal with the chosen replay output directory."
+    }
+  ],
+  "scope": "Only the universal orthogonal support theorem and its bundled regressions are Lean certified; written graph/covering applications are separate."
+}

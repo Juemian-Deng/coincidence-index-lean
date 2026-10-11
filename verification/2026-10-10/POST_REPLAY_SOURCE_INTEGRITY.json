@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-10T08:20:28.533112+00:00",
+  "wang_recompiled_sources_byte_identical": 42,
+  "archive_manifests": [
+    {
+      "package": "research/application_archive_recovery_20261010/Wang38_both_parts_complete_Lean_20261007",
+      "manifest": "PACKAGE_SHA256SUMS",
+      "entries": 100,
+      "status": "PASS_CLOSED_MANIFEST"
+    },
+    {
+      "package": "research/application_archive_recovery_20261010/Even_coincidence_full_bound_20261007/Even_coincidence_full_bound_20261007",
+      "manifest": "SHA256SUMS.txt",
+      "entries": 246,
+      "status": "PASS_CLOSED_MANIFEST"
+    }
+  ]
+}

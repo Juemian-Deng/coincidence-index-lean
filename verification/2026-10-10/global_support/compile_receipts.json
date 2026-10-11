@@ -1,0 +1,557 @@
+[
+  {
+    "module": "ResidueParityBridge",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/ResidueParityBridge.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/ResidueParityBridge.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 6.495659
+  },
+  {
+    "module": "DualCardinality",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/DualCardinality.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/DualCardinality.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 5.36729
+  },
+  {
+    "module": "DualFiberCounting",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/DualFiberCounting.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/DualFiberCounting.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 3.03222
+  },
+  {
+    "module": "ActualFiberBounds",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/ActualFiberBounds.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/ActualFiberBounds.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 5.010162
+  },
+  {
+    "module": "IntegerNormTwo",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/IntegerNormTwo.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/IntegerNormTwo.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 3.005462
+  },
+  {
+    "module": "CommonEndpoint",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/CommonEndpoint.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/CommonEndpoint.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 3.723709
+  },
+  {
+    "module": "NormTwoStar",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/NormTwoStar.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/NormTwoStar.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 2.252549
+  },
+  {
+    "module": "MatrixLargeClass",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/MatrixLargeClass.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/MatrixLargeClass.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 3.455703
+  },
+  {
+    "module": "OwnBlockEnergy",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/OwnBlockEnergy.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/OwnBlockEnergy.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 3.53599
+  },
+  {
+    "module": "FiniteClassBridge",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/FiniteClassBridge.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/FiniteClassBridge.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 2.573747
+  },
+  {
+    "module": "FiniteClassRows",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/FiniteClassRows.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/FiniteClassRows.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 2.690099
+  },
+  {
+    "module": "FixedSignCapacity",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/FixedSignCapacity.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/FixedSignCapacity.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 7.545693
+  },
+  {
+    "module": "SignClassTransfer",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/SignClassTransfer.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/SignClassTransfer.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 5.032615
+  },
+  {
+    "module": "ResidueImageAdapter",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/ResidueImageAdapter.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/ResidueImageAdapter.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 2.274054
+  },
+  {
+    "module": "MatrixClassAdapters",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/MatrixClassAdapters.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/MatrixClassAdapters.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 2.784243
+  },
+  {
+    "module": "IntegerCoreSupport",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/IntegerCoreSupport.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/IntegerCoreSupport.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 3.365778
+  },
+  {
+    "module": "FreeInvolutionCapacity",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/FreeInvolutionCapacity.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/FreeInvolutionCapacity.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 3.266215
+  },
+  {
+    "module": "GeneralSmallClassBound",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/GeneralSmallClassBound.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/GeneralSmallClassBound.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 3.763428
+  },
+  {
+    "module": "IntegerEvenCore",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/IntegerEvenCore.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/IntegerEvenCore.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 2.384205
+  },
+  {
+    "module": "ActualLargeClassBound",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/ActualLargeClassBound.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/ActualLargeClassBound.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 4.264732
+  },
+  {
+    "module": "ReducedColumnEnergy",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/ReducedColumnEnergy.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/ReducedColumnEnergy.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 4.73843
+  },
+  {
+    "module": "ActualSignClassReduction",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/ActualSignClassReduction.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/ActualSignClassReduction.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 4.561167
+  },
+  {
+    "module": "RationalResidueConnection",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/RationalResidueConnection.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/RationalResidueConnection.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 4.460789
+  },
+  {
+    "module": "OrthogonalPresentation",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/OrthogonalPresentation.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/OrthogonalPresentation.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 2.719192
+  },
+  {
+    "module": "GeneralCoreBound",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/GeneralCoreBound.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/GeneralCoreBound.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 4.853088
+  },
+  {
+    "module": "SupportRestriction",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/SupportRestriction.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/SupportRestriction.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 5.16314
+  },
+  {
+    "module": "SubmatrixImage",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/SubmatrixImage.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/SubmatrixImage.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 4.76058
+  },
+  {
+    "module": "GlobalSupportBound",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/GlobalSupportBound.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/GlobalSupportBound.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 4.438219
+  },
+  {
+    "module": "EvenSmallClassBound",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/EvenSmallClassBound.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/EvenSmallClassBound.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 4.005465
+  },
+  {
+    "module": "MaximumClass",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/MaximumClass.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/MaximumClass.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 3.136506
+  },
+  {
+    "module": "WrittenTheoremB",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/WrittenTheoremB.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/WrittenTheoremB.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 4.314698
+  },
+  {
+    "module": "RegressionChecks",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/RegressionChecks.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/RegressionChecks.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 12.927385
+  },
+  {
+    "module": "GeneralCoreRegression",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/GeneralCoreRegression.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/GeneralCoreRegression.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 12.932153
+  },
+  {
+    "module": "GlobalSupportRegression",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/GlobalSupportRegression.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/GlobalSupportRegression.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 0,
+    "elapsed_seconds": 12.439797
+  },
+  {
+    "module": "AxiomAudit",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/AxiomAudit.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/AxiomAudit.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 3915,
+    "elapsed_seconds": 3.417233
+  },
+  {
+    "module": "StatementAudit",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/StatementAudit.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/StatementAudit.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 28696,
+    "elapsed_seconds": 9.785234
+  },
+  {
+    "module": "AllDeclarationAudit",
+    "command": [
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/toolchain/lean-4.34.1-linux/bin/lean",
+      "-j1",
+      "-R",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source",
+      "-o",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/build/AllDeclarationAudit.olean",
+      "/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/global_support_replay/source/AllDeclarationAudit.lean"
+    ],
+    "returncode": 0,
+    "log_bytes": 1463,
+    "elapsed_seconds": 4.474896
+  }
+]

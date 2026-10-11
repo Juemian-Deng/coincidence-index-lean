@@ -1,0 +1,6 @@
+.lake/
+.replay/
+__pycache__/
+*.olean
+*.ilean
+*.trace

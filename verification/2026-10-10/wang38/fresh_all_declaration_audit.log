@@ -1,0 +1,29 @@
+'Wang38.published_conjecture38I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38II' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE_DECLARATIONS ShortVectorBounds: 17
+MODULE_DECLARATIONS CovolumeGram: 7
+MODULE_DECLARATIONS RootPairing: 8
+MODULE_DECLARATIONS RootComplement: 27
+MODULE_DECLARATIONS RootParityIndex: 23
+MODULE_DECLARATIONS RootDeterminant: 18
+MODULE_DECLARATIONS UnitOrNormFour: 10
+MODULE_DECLARATIONS RealUnitSplitting: 38
+MODULE_DECLARATIONS NormFourNeighbor: 33
+MODULE_DECLARATIONS IndexTwoStandard: 24
+MODULE_DECLARATIONS StandardTransport: 14
+MODULE_DECLARATIONS LowRankClassification: 12
+MODULE_DECLARATIONS Wang38Targets: 25
+MODULE_DECLARATIONS InnerProduct: 42
+MODULE_DECLARATIONS SquareDimensionBound: 14
+MODULE_DECLARATIONS MatrixNumerator: 10
+MODULE_DECLARATIONS MathlibBridge: 13
+MODULE_DECLARATIONS NormLift: 6
+MODULE_DECLARATIONS PrimeNeighbor: 21
+MODULE_DECLARATIONS Characteristic: 11
+MODULE_DECLARATIONS SelfDual: 8
+MODULE_DECLARATIONS LatticeBridge: 11
+MODULE_DECLARATIONS FrameOrientation: 7
+MODULE_DECLARATIONS SwapArithmetic: 20
+MODULE_DECLARATIONS ExchangeLemma: 24
+/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/wang_both_replay/FreshAllDeclarationAudit.lean:9:0: error: PARTIAL_LOCAL_DECLARATION Wang38.Frequency.sumN._unsafe_rec

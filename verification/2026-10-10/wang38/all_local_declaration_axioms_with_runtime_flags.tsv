@@ -1,0 +1,732 @@
+module	declaration	axioms
+ShortVectorBounds	Wang38I.Classification.exists_norm_sq_lt_three_of_covolume._simp_1_1	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.exists_unit_or_root_covolume_sq_le_two._proof_1_1	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.shortVectorCovolumeCap._proof_1	propext
+ShortVectorBounds	Wang38I.Classification.exists_norm_sq_lt_three_of_covolume	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.ball_sqrt_three_volume	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.sqrt_two_lt_cap	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.exists_unit_or_root_of_covolume._proof_1_1	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.shortVectorCovolumeCap.eq_1	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.exists_norm_sq_lt_three_of_covolume._proof_1_2	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.exists_unit_or_root_of_covolume	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.exists_unit_or_root_covolume_one	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.exists_unit_or_root_covolume_sq_le_two	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.shortVectorCovolumeCap_nonneg	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.shortVectorCovolumeCap._proof_2	propext
+ShortVectorBounds	Wang38I.Classification.exists_unit_or_root_covolume_sq_le_two._proof_1_2	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.shortVectorCovolumeCap	propext Classical.choice Quot.sound
+ShortVectorBounds	Wang38I.Classification.ball_sqrt_three_volume._proof_1_1	propext Classical.choice Quot.sound
+CovolumeGram	Wang38I.Classification.selfDual_covolume_one	propext Classical.choice Quot.sound
+CovolumeGram	Wang38I.Classification.covolume_sq_eq_gram_det	propext Classical.choice Quot.sound
+CovolumeGram	Matrix.gram.eq_1	Quot.sound
+CovolumeGram	Wang38I.Classification.selfDual_real_integer_gram._simp_1_1	propext
+CovolumeGram	Wang38I.Classification.selfDual_exists_unit_or_root	propext Classical.choice Quot.sound
+CovolumeGram	Wang38I.Classification.real_inner_nondegenerate	propext Classical.choice Quot.sound
+CovolumeGram	Wang38I.Classification.selfDual_real_integer_gram	propext Classical.choice Quot.sound
+RootPairing	Wang38I.Classification.root_has_odd_pairing	propext Classical.choice Quot.sound
+RootPairing	Wang38I.Classification.root_has_pairing_one._proof_1_1	propext Quot.sound
+RootPairing	Wang38I.Classification.half_root_not_mem._proof_1_1	propext Quot.sound
+RootPairing	Wang38I.Classification.root_pairing_surjective	propext Classical.choice Quot.sound
+RootPairing	Wang38I.Classification.root_has_odd_pairing._proof_1_1	propext Quot.sound
+RootPairing	Wang38I.Classification.selfDual_inner_integral	propext Classical.choice Quot.sound
+RootPairing	Wang38I.Classification.root_has_pairing_one	propext Classical.choice Quot.sound
+RootPairing	Wang38I.Classification.half_root_not_mem	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.mem_rootComplement	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection._proof_2	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection._proof_3	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection._proof_1	propext
+RootComplement	Wang38I.Classification.rootProjection._proof_4	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection_surjective	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection._proof_6	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootPerp	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.twice_rootProjection_mem	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootComplement._proof_1	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.mem_rootPerp	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootComplement_finrank	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootComplement_isZLattice	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection_coe	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection_fixed	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootPerp_finrank	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootPerp._proof_1	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootComplement_isZLattice._simp_1_1	propext
+RootComplement	Wang38I.Classification.rootPerp.eq_1	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootComplement	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection._abel_1	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection.congr_simp	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootProjection._proof_5	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.mem_rootPerp._simp_1	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.mem_rootComplement._simp_1	propext Classical.choice Quot.sound
+RootComplement	Wang38I.Classification.rootComplement_discreteTopology	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityLattice_isZLattice	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityLattice_relIndex_two	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityLattice_covolume	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityMap._proof_1	propext Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityMap	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.mem_rootParityLattice	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityLattice	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityKernel	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityLattice_le	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityMap.congr_simp	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityKernel_index_two	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootPairingMap_cast	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityMap_surjective	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootPairingMap_surjective	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityLattice_discreteTopology	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootPairingMap._proof_2	propext Quot.sound
+RootParityIndex	Wang38I.Classification.rootPairingMap._proof_3	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityLattice_isZLattice._simp_1_1	propext
+RootParityIndex	Wang38I.Classification.rootPairingMap._proof_4	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootPairingMap._proof_1	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootPairingMap	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.twice_mem_rootParityLattice	propext Classical.choice Quot.sound
+RootParityIndex	Wang38I.Classification.rootParityLattice.congr_simp	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.root_mem_rootParityLattice	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParityJoin._proof_5	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParity_decomposition._abel_1_1	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParitySplitting.congr_simp	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParityJoin._abel_1	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParityJoin._proof_7	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParitySplitting._proof_1	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParity_decomposition	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParityJoin._proof_1	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParityJoin._proof_4	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParitySplitting_apply	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParityJoin	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParityJoin._proof_6	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.complement_mem_rootParityLattice	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParityJoin._proof_2	propext
+RootDeterminant	Wang38I.Classification.rootParityJoin._proof_3	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootComplement_covolume_sq	propext Classical.choice Quot.sound
+RootDeterminant	Wang38I.Classification.rootParitySplitting	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.selfDual_unit_or_orthogonal_roots._proof_1_2	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.selfDual_unit_or_orthogonal_roots._proof_1_3	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.selfDual_rank_one_has_unit._proof_1_1	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.selfDual_unit_or_orthogonal_roots	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.no_root_rank_one._proof_1_1	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.no_root_rank_one	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.selfDual_unit_or_normFour	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.selfDual_rank_one_has_unit._proof_1_2	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.selfDual_rank_one_has_unit	propext Classical.choice Quot.sound
+UnitOrNormFour	Wang38I.Classification.selfDual_unit_or_orthogonal_roots._proof_1_1	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitJoin._proof_5	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitSplittingEquiv.congr_simp	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitExtendBasis_orthonormal	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitComplement_finrank	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection._proof_2	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection._proof_3	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitExtendBasis_inl	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitJoin._abel_1	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection_surjective	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitExtendBasis.eq_1	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitJoin.eq_1	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitSplittingEquiv_apply	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitExtendBasis.congr_simp	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitJoin._proof_1	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitJoin._proof_4	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitJoin	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection_coe	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitExtendBasis_inr	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection.congr_simp	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection_mem	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitPerp_finrank	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitSplittingEquiv	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitExtendBasis_inner	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitJoin._proof_2	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitJoin._proof_3	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitExtendBasis	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnit_decomposition._abel_1_1	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnit_decomposition	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection._abel_1	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitSplittingEquiv._proof_2	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitComplement_isZLattice	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitComplement_selfDual	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection._proof_5	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection._proof_1	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection._proof_4	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitProjection_fixed	propext Classical.choice Quot.sound
+RealUnitSplitting	Wang38I.Classification.realUnitSplittingEquiv._proof_1	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor_integral	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.half_normFour_unit	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor_index	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor.eq_1	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.mem_normFourNeighbor	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourCore_index	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.mem_normFourNeighbor._simp_1_2	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor_discreteTopology	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor_index._abel_1_2	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor_isZLattice	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourCore._proof_2	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourCore._proof_3	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor_selfDual._abel_1_2	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.half_mem_normFourNeighbor	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.mem_normFourCore_iff._proof_1_1	propext Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourCore	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFour_unit_or_neighbor	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.mem_normFourCore_iff	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.twice_mem_normFourCore	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor_selfDual	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor_index._proof_1_1	propext Quot.sound
+NormFourNeighbor	Wang38I.Classification.mem_normFourNeighbor._simp_1_3	propext Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFour_mem_core	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourCore._proof_1	propext
+NormFourNeighbor	Wang38I.Classification.normFourCore._proof_4	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFour_has_odd_pairing._proof_1_1	propext Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFour_has_odd_pairing	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourCore_index._proof_1_1	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourCore_le	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFour_intersection	propext Classical.choice Quot.sound
+NormFourNeighbor	Wang38I.Classification.normFourNeighbor_selfDual._proof_1_1	propext Quot.sound
+NormFourNeighbor	Wang38I.Classification.twice_mem_original_of_normFourNeighbor	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.integer_vector_even_norm_of_half_pairing._proof_1_1	propext Quot.sound
+IndexTwoStandard	Wang38I.Classification.half_coordinates_norm._proof_1_1	propext Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_coset_representative	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.half_integer_of_double_integer	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_noUnit_minimal_half_vector	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_integral_test	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_noUnit_half_coordinates	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_double_mem	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.mem_standardIntegerLattice	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_standard_alternative	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.standardIntegerLattice_inner	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.integer_vector_even_norm_of_half_pairing._simp_1_2	propext Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_standard_norm_sq_alternative	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.mem_standardIntegerLattice._simp_1_1	propext
+IndexTwoStandard	Wang38I.Classification.integer_vector_even_norm_of_half_pairing	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.half_coordinates_norm	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_noUnit_representative_nonintegral	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_inner_integral	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.half_coordinates_norm._simp_1_2	propext Quot.sound
+IndexTwoStandard	Wang38I.Classification.half_integer_of_double_integer._proof_1_1	propext Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_toggle	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.standardIntegerLattice	propext Classical.choice Quot.sound
+IndexTwoStandard	Wang38I.Classification.half_integer_of_double_integer._proof_1_2	propext Quot.sound
+IndexTwoStandard	Wang38I.Classification.indexTwo_standard_alternative._proof_1_1	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.isometryLatticeMap._proof_1	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.indexTwo_isometry_alternative	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.mem_isometryLatticeMap	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.isometryLatticeMap	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.isometryLatticeMap_inf	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.orthonormal_span_map._simp_1_3	propext
+StandardTransport	Wang38I.Classification.isometryLatticeMap_selfDual	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.isometryLatticeMap_relIndex	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.indexTwo_orthonormalIntegerBasis_alternative	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.isometryLatticeMap.eq_1	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.orthonormal_span_map	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.indexTwo_orthonormalIntegerBasis_norm_sq_alternative	propext Classical.choice Quot.sound
+StandardTransport	Wang38I.Classification.orthonormal_span_map._simp_1_2	propext Quot.sound
+StandardTransport	Wang38I.Classification.mem_isometryLatticeMap._simp_1	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis._proof_1_10	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.OddLattice	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis._proof_1_9	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.odd_lowRank_orthonormal_integer_basis	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis._proof_1_5	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis._proof_1_6	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis._proof_1_8	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis._proof_1_1	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis._proof_1_7	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis.match_1_2	propext Classical.choice Quot.sound
+LowRankClassification	Wang38I.Classification.lowRank_orthonormal_integer_basis._proof_1_4	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.Conjecture38I	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.Numerator	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.sumI	
+Wang38Targets	Wang38.generated_is_primitive	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.ExactLevel	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.IMatrix	
+Wang38Targets	Wang38.OddPrime	
+Wang38Targets	Wang38.Integral	propext Quot.sound
+Wang38Targets	Wang38.ClearsDenominators	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.GeneratedPrimitive	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.sumQ	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.Admissible	
+Wang38Targets	Wang38.Regular	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.ColumnsInLine	
+Wang38Targets	Wang38.RankOneMod	
+Wang38Targets	Wang38.Conjecture38II	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.conjecture38I_dimension_one	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.Orthogonal	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.Primitive	propext Classical.choice Quot.sound
+Wang38Targets	Wang38.dotI	
+Wang38Targets	Wang38.sumI.eq_1	
+Wang38Targets	Wang38.IVector	
+Wang38Targets	Wang38.QMatrix	
+Wang38Targets	Wang38.no_admissible_dimension_one	propext Quot.sound
+Wang38Targets	Wang38.FullSupport	
+InnerProduct	Wang38.dotI_self_nonnegative	propext Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign._proof_1_6	propext Classical.choice Quot.sound
+InnerProduct	Wang38.dotI_add_right	propext Classical.choice Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign._proof_1_5	propext Quot.sound
+InnerProduct	Wang38.dotI_smul_right._proof_1_1	propext Classical.choice Quot.sound
+InnerProduct	Wang38.prime_cancel_nonzero_residue	propext Quot.sound
+InnerProduct	Wang38.inner_product_divisible._proof_1_4	propext Classical.choice Quot.sound
+InnerProduct	Wang38.dotI_comm	propext Quot.sound
+InnerProduct	Wang38.sumI_smul._proof_1_1	propext
+InnerProduct	Wang38.int_square_nonnegative	propext Quot.sound
+InnerProduct	Wang38.int_square_nonnegative._proof_1_1	propext Quot.sound
+InnerProduct	Wang38.sumI_smul	propext Classical.choice Quot.sound
+InnerProduct	Wang38.dotI.eq_1	
+InnerProduct	Wang38.dotI_self_eq_zero	propext Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign	propext Classical.choice Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign._proof_1_7	propext Quot.sound
+InnerProduct	Wang38.sumI_add._proof_1_1	propext Classical.choice Quot.sound
+InnerProduct	Wang38.inner_product_divisible._proof_1_2	propext Quot.sound
+InnerProduct	Wang38.inner_product_divisible._proof_1_3	propext Classical.choice Quot.sound
+InnerProduct	Wang38.dotI_linear_combination._proof_1_1	propext Classical.choice Quot.sound
+InnerProduct	Wang38.inner_product_divisible._proof_1_1	propext Quot.sound
+InnerProduct	Wang38.sumI_add	propext Classical.choice Quot.sound
+InnerProduct	Wang38.inner_product_divisible._proof_1_6	propext Classical.choice Quot.sound
+InnerProduct	Wang38.dotI_self_eq_zero._proof_1_2	propext Quot.sound
+InnerProduct	Wang38.dotI_self_eq_zero._proof_1_3	propext Quot.sound
+InnerProduct	Wang38.oddPrime_ge_three	propext Quot.sound
+InnerProduct	Wang38.sumI_smul._proof_1_2	propext Classical.choice Quot.sound
+InnerProduct	Wang38.inner_product_divisible._proof_1_5	propext Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign._proof_1_4	propext Classical.choice Quot.sound
+InnerProduct	Wang38.oddPrime_ge_three._proof_1_1	propext Quot.sound
+InnerProduct	Wang38.int_square_positive._proof_1_1	propext Quot.sound
+InnerProduct	Wang38.int_square_positive	propext Quot.sound
+InnerProduct	Wang38.dotI_linear_combination	propext Classical.choice Quot.sound
+InnerProduct	Wang38.inner_product_divisible	propext Classical.choice Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign._proof_1_9	propext Quot.sound
+InnerProduct	Wang38.gcd_prime_nonzero_residue	propext Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign._proof_1_2	propext Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign._proof_1_3	propext Classical.choice Quot.sound
+InnerProduct	Wang38.dotI_smul_right	propext Classical.choice Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign._proof_1_1	propext Quot.sound
+InnerProduct	Wang38.dotI_self_nonnegative._proof_1_2	propext Quot.sound
+InnerProduct	Wang38.orthogonal_or_equal_up_to_sign._proof_1_8	propext Classical.choice Quot.sound
+SquareDimensionBound	Wang38.sumQ_intCast	propext Classical.choice Quot.sound
+SquareDimensionBound	Wang38.nonzero_product_mod	propext Quot.sound
+SquareDimensionBound	Wang38.sumQ_smul._proof_1_2	propext
+SquareDimensionBound	Wang38.sumQ_smul._proof_1_3	propext Classical.choice Quot.sound
+SquareDimensionBound	Wang38.nonzero_norm_bound._proof_1_1	propext Quot.sound
+SquareDimensionBound	Wang38.numerator_column_norm	propext Classical.choice Quot.sound
+SquareDimensionBound	Wang38.generated_dimension_le_prime_square._proof_1_1	propext Quot.sound
+SquareDimensionBound	Wang38.no_generated_above_prime_square._proof_1_1	propext Quot.sound
+SquareDimensionBound	Wang38.numerator_column_norm._proof_1_1	propext Classical.choice Quot.sound
+SquareDimensionBound	Wang38.sumQ.eq_1	propext Classical.choice Quot.sound
+SquareDimensionBound	Wang38.nonzero_norm_bound	propext Quot.sound
+SquareDimensionBound	Wang38.sumQ_smul	propext Classical.choice Quot.sound
+SquareDimensionBound	Wang38.generated_dimension_le_prime_square	propext Classical.choice Quot.sound
+SquareDimensionBound	Wang38.no_generated_above_prime_square	propext Classical.choice Quot.sound
+MatrixNumerator	Wang38.numerator_full_support._proof_1_1	propext Quot.sound
+MatrixNumerator	Wang38.dotI_zero_left	propext Quot.sound
+MatrixNumerator	Wang38.numerator_column_gram	propext Classical.choice Quot.sound
+MatrixNumerator	Wang38.numerator_column_gram._proof_1_1	propext Classical.choice Quot.sound
+MatrixNumerator	Wang38.integer_unit_dot_nonzero	propext Quot.sound
+MatrixNumerator	Wang38.numerator_full_support	propext Classical.choice Quot.sound
+MatrixNumerator	Wang38.integer_unit_dot_nonzero._proof_1_1	propext Quot.sound
+MatrixNumerator	Wang38.numerator_full_support._proof_1_2	propext Quot.sound
+MatrixNumerator	Wang38.numerator_full_support._proof_1_3	propext Classical.choice Quot.sound
+MatrixNumerator	Wang38.nonzero_residue_column	propext Quot.sound
+MathlibBridge	Wang38.residue_class_complete._simp_1_2	propext
+MathlibBridge	Wang38.orthogonal_transpose	propext Classical.choice Quot.sound
+MathlibBridge	Wang38.numerator_columns_span	propext Classical.choice Quot.sound
+MathlibBridge	Wang38.residue_class_complete._proof_1_3	propext Quot.sound
+MathlibBridge	Wang38.intCast_mod_zero_iff	propext Classical.choice Quot.sound
+MathlibBridge	Wang38.orthogonal_matrix_identity	propext Classical.choice Quot.sound
+MathlibBridge	Wang38.residue_class_complete._proof_1_4	propext Quot.sound
+MathlibBridge	Wang38.oddPrime_isPrime	propext
+MathlibBridge	Wang38.orthogonal_transpose_identity	propext Classical.choice Quot.sound
+MathlibBridge	Wang38.nonzero_residue_line_ratio	propext Classical.choice Quot.sound
+MathlibBridge	Wang38.residue_class_complete._simp_1_1	propext
+MathlibBridge	Wang38.residue_class_complete	propext Classical.choice Quot.sound
+MathlibBridge	Wang38.residue_class_complete._proof_1_5	propext Quot.sound
+NormLift	Wang38I.exists_admissible_norm_divisible_lift	propext Classical.choice Quot.sound
+NormLift	Wang38I.exists_norm_divisible_lift._proof_1_1	propext Quot.sound
+NormLift	Wang38I.exists_norm_divisible_lift._proof_1_2	propext Quot.sound
+NormLift	Wang38I.exists_norm_divisible_lift._proof_1_3	propext Quot.sound
+NormLift	Wang38I.exists_norm_divisible_lift	propext Classical.choice Quot.sound
+NormLift	Wang38I.dotI_single	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.dotQ_cast	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.neighbor._proof_2	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.neighbor._proof_3	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.dotQ	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.neighbor_numerator	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.dotQ_mul_left	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.dotQ_add_right	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.dotQ_add_left	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.base_mem_neighbor	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.dotQ_mul_right	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.neighbor_integral	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.castVector.eq_1	propext Quot.sound
+PrimeNeighbor	Wang38I.neighbor._proof_1	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.mem_neighbor_iff	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.lift_mem_neighbor	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.QVector	
+PrimeNeighbor	Wang38I.dotQ.eq_1	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.castVector	propext Quot.sound
+PrimeNeighbor	Wang38I.dotQ_comm	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.neighbor	propext Classical.choice Quot.sound
+PrimeNeighbor	Wang38I.neighbor_positive	propext Classical.choice Quot.sound
+Characteristic	Wang38I.ones.eq_1	propext Quot.sound
+Characteristic	Wang38I.ones_characteristic._proof_1_1	propext Quot.sound
+Characteristic	Wang38I.neighbor_is_odd	propext Classical.choice Quot.sound
+Characteristic	Wang38I.ones	propext Quot.sound
+Characteristic	Wang38I.norm_sum_parity	propext Classical.choice Quot.sound
+Characteristic	Wang38I.ones_mem_neighbor	propext Classical.choice Quot.sound
+Characteristic	Wang38I.norm_sum_parity._simp_1_1	propext Quot.sound
+Characteristic	Wang38I.ones_characteristic	propext Classical.choice Quot.sound
+Characteristic	Wang38I.numerator_norm	propext Classical.choice Quot.sound
+Characteristic	Wang38I.ones_characteristic._proof_1_2	propext Quot.sound
+Characteristic	Wang38I.numerator_sum	propext Classical.choice Quot.sound
+SelfDual	Wang38I.neighbor_self_dual._proof_1_1	propext Quot.sound
+SelfDual	Wang38I.dual_has_numerator	propext Classical.choice Quot.sound
+SelfDual	Wang38I.dual_numerator_line	propext Classical.choice Quot.sound
+SelfDual	Wang38I.dotQ_sub_right	propext Classical.choice Quot.sound
+SelfDual	Wang38I.dotI_sub_right	propext Classical.choice Quot.sound
+SelfDual	Wang38I.neighbor_self_dual._proof_1_2	propext Quot.sound
+SelfDual	Wang38I.dotQ_single_right	propext Classical.choice Quot.sound
+SelfDual	Wang38I.neighbor_self_dual	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.neighbor_span	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.neighbor_finrank	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.fractionalCast._proof_1	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.neighbor_dualSubmodule._simp_1_2	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.neighbor_isLattice	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.fractionalCast._proof_2	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.neighbor_dualSubmodule._simp_1_1	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.neighbor_dualSubmodule	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.fractionalCast	propext Classical.choice Quot.sound
+LatticeBridge	dotProductBilin.congr_simp	propext Classical.choice Quot.sound
+LatticeBridge	Wang38I.neighbor_fg	propext Classical.choice Quot.sound
+FrameOrientation	Wang38I.frame_column_sums	propext Classical.choice Quot.sound
+FrameOrientation	Wang38I.column_sums_norm	propext Classical.choice Quot.sound
+FrameOrientation	Wang38I.orient_neighbor_frame	propext Classical.choice Quot.sound
+FrameOrientation	Wang38I.frame_column_sums._proof_1_2	propext Quot.sound
+FrameOrientation	Wang38I.frame_column_sums._proof_1_3	propext Quot.sound
+FrameOrientation	Wang38I.regular_of_column_sums	propext Classical.choice Quot.sound
+FrameOrientation	Wang38I.frame_column_sums._proof_1_1	propext Quot.sound
+SwapArithmetic	Wang38.same_residue_orthogonal_or_equal._proof_1_2	propext Quot.sound
+SwapArithmetic	Wang38.same_residue_orthogonal_or_equal._proof_1_3	propext Quot.sound
+SwapArithmetic	Wang38.swapVector	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.same_residue_orthogonal_or_equal	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.residue_pair_gap._proof_1_2	propext Quot.sound
+SwapArithmetic	Wang38.deltaVector	
+SwapArithmetic	Wang38.no_disjoint_varying_pairs	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.same_residue_orthogonal_or_equal._proof_1_4	propext Quot.sound
+SwapArithmetic	Wang38.no_disjoint_varying_pairs._proof_1_2	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.swapVector_expansion	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.swapVector.eq_1	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.swapVector_norm	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.residue_pair_gap	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.residue_pair_gap._proof_1_1	propext Quot.sound
+SwapArithmetic	Wang38.deltaVector.eq_1	
+SwapArithmetic	Wang38.swapVector_residue	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.unequal_swap_orthogonal	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.same_residue_orthogonal_or_equal._proof_1_1	propext Quot.sound
+SwapArithmetic	Wang38.dotI_delta	propext Classical.choice Quot.sound
+SwapArithmetic	Wang38.dotI_swapVector	propext Classical.choice Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values	propext Classical.choice Quot.sound
+ExchangeLemma	Wang38.residue_block_exchange_vector._proof_1_1	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values._proof_1_4	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values._proof_1_9	propext Quot.sound
+ExchangeLemma	Wang38.coordinate_abs_lt_prime._proof_1_1	propext Quot.sound
+ExchangeLemma	Wang38.coordinate_abs_lt_prime	propext Classical.choice Quot.sound
+ExchangeLemma	Wang38.residue_block_exchange_vector	propext Classical.choice Quot.sound
+ExchangeLemma	Wang38.add_delta_norm	propext Classical.choice Quot.sound
+ExchangeLemma	Wang38.residue_block_exchange_vector._proof_1_7	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values._proof_1_6	propext Quot.sound
+ExchangeLemma	Wang38.square_pair_le_norm	propext Classical.choice Quot.sound
+ExchangeLemma	Wang38.residue_block_exchange_vector._proof_1_4	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values._proof_1_5	propext Quot.sound
+ExchangeLemma	Wang38.delta_norm	propext Classical.choice Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values._proof_1_7	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_exchange_vector._proof_1_5	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_one_exception	propext Classical.choice Quot.sound
+ExchangeLemma	Wang38.residue_block_exchange_vector._proof_1_2	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_exchange_vector._proof_1_3	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values._proof_1_1	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values._proof_1_8	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_exchange_vector._proof_1_6	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values._proof_1_2	propext Quot.sound
+ExchangeLemma	Wang38.residue_block_two_values._proof_1_3	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN.match_1	
+FrequencyInequality	Wang38.Frequency.sumN_lower._proof_1_5	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.weighted_dimension_bound._proof_1_1	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude	propext Classical.choice Quot.sound
+FrequencyInequality	Wang38.Frequency.excessTerm.eq_1	
+FrequencyInequality	Wang38.Frequency.weighted_dimension_bound._proof_1_4	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN_add	propext
+FrequencyInequality	_private.FrequencyInequality.0.Wang38.Frequency.sumN.match_1.eq_2	
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_13	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_21	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN_lower	propext Classical.choice Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_7	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_17	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN.eq_1	
+FrequencyInequality	Wang38.Frequency.squareMass.eq_1	
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_14	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_6	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_19	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN_lower._proof_1_4	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_8	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_15	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_2	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_3	propext Quot.sound
+FrequencyInequality	_private.FrequencyInequality.0.Wang38.Frequency.sumN.match_1.splitter	
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_18	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN_nonnegative	propext Classical.choice Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_5	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.excessTerm	
+FrequencyInequality	Wang38.Frequency.sum_excess	propext Classical.choice Quot.sound
+FrequencyInequality	Wang38.Frequency.sum_excess._proof_1_7	propext Classical.choice Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN._sunfold	
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_22	propext Classical.choice Quot.sound
+FrequencyInequality	_private.FrequencyInequality.0.Wang38.Frequency.sumN.match_1.eq_1	
+FrequencyInequality	Wang38.Frequency.sumN._f	
+FrequencyInequality	Wang38.Frequency.weighted_dimension_bound	propext Classical.choice Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_1	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.mass.eq_1	
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_4	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_10	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_12	propext Classical.choice Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_16	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN.eq_2	
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_9	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_11	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.weighted_dimension_bound._proof_1_2	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.weighted_dimension_bound._proof_1_3	propext Classical.choice Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN._unsafe_rec	
+FrequencyInequality	Wang38.Frequency.mass	
+FrequencyInequality	Wang38.Frequency.sumN.eq_def	
+FrequencyInequality	Wang38.Frequency.sumN_lower._proof_1_6	propext Classical.choice Quot.sound
+FrequencyInequality	Wang38.Frequency.most_frequent_magnitude._proof_1_20	propext Quot.sound
+FrequencyInequality	Wang38.Frequency.sumN	
+FrequencyInequality	Wang38.Frequency.squareMass	
+VectorFrequency	Wang38.magnitude_histogram_moment._simp_1_2	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.sumN_eq_sum_range	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.maxMagnitude	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.vector_frequency_dimension_bound._proof_1_2	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.vector_frequency_dimension_bound._proof_1_3	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.magnitudeCount.eq_1	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.dotI.eq_1	
+VectorFrequency	Wang38.magnitude_histogram_moment._proof_1_4	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.vector_frequency_dimension_bound._proof_1_4	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.magnitude_histogram_mass	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.magnitude_histogram_moment._simp_1_3	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.vector_frequency_dimension_bound	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.vector_frequency_dimension_bound._proof_1_1	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.magnitude_histogram_moment	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.vector_frequency_bound	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.magnitude_le_max	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.magnitude_histogram_squareMass	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.vector_frequency_dimension_bound._proof_1_5	propext Classical.choice Quot.sound
+VectorFrequency	Wang38.magnitude_histogram_moment._proof_1_5	propext Quot.sound
+VectorFrequency	Wang38.magnitudeCount	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.exists_maximal_absResidueBlock	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.sameAbs_refl	
+ResidueBlocks	Wang38.sameAbs_cast_of_natAbs_eq	propext Quot.sound
+ResidueBlocks	Wang38.exists_maximal_absResidueBlock._simp_1_2	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.sameAbs_trans	propext
+ResidueBlocks	Wang38.orientSign_on_block	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.sameAbs_sign_mul	propext
+ResidueBlocks	Wang38.absResidueBlock	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.mem_absResidueBlock	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.exists_maximal_absResidueBlock._simp_1_1	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.sameAbs_symm	propext
+ResidueBlocks	Wang38.self_mem_absResidueBlock	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.orientSign	propext Quot.sound
+ResidueBlocks	Wang38.orientSign_square	propext Quot.sound
+ResidueBlocks	Wang38.absResidueBlock.eq_1	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.SameAbs	
+ResidueBlocks	Wang38.sameAbs_mul_cancel	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.magnitudeCount_le_maximal_block	propext Classical.choice Quot.sound
+ResidueBlocks	Wang38.orientSign_cases	propext Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime._simp_1_5	propext Classical.choice Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime	propext Classical.choice Quot.sound
+Wang38II	Wang38.signed_rows_differ._proof_1_2	propext Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime._proof_1_7	propext Classical.choice Quot.sound
+Wang38II	Wang38.signed_vector_norm	propext Classical.choice Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime._proof_1_1	propext Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime._simp_1_6	propext Classical.choice Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime._proof_1_8	propext Classical.choice Quot.sound
+Wang38II	Wang38.signed_rows_differ	propext Classical.choice Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime._proof_1_2	propext Classical.choice Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime._proof_1_3	propext Classical.choice Quot.sound
+Wang38II	Wang38.conjecture38II	propext Classical.choice Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime._proof_1_9	propext Classical.choice Quot.sound
+Wang38II	Wang38.signed_rows_differ._proof_1_1	propext Quot.sound
+Wang38II	Wang38.conjecture38II._proof_1_1	propext Quot.sound
+Wang38II	Wang38.generated_dimension_le_twice_prime._proof_1_4	propext Classical.choice Quot.sound
+PublishedStatement	Wang38.PublishedGeneratedPrimitive	propext Classical.choice Quot.sound
+PublishedStatement	Wang38.published_conjecture38II	propext Classical.choice Quot.sound
+PublishedStatement	Wang38.PublishedConjecture38I	propext Classical.choice Quot.sound
+PublishedStatement	Wang38.matrix_rank_one_nonzero._proof_1_1	propext Quot.sound
+PublishedStatement	Wang38.matrix_rank_one_nonzero	propext Classical.choice Quot.sound
+PublishedStatement	Wang38.residueMatrix	propext Quot.sound
+PublishedStatement	Wang38.published_generated_implies_basis_generated	propext Classical.choice Quot.sound
+PublishedStatement	Wang38.published_conjecture38II._proof_1_1	propext Quot.sound
+PublishedStatement	Wang38.PublishedConjecture38II	propext Classical.choice Quot.sound
+RankBridge	Wang38I.rankOneMod_rank	propext Classical.choice Quot.sound
+RankBridge	Wang38I.generated_implies_published	propext Classical.choice Quot.sound
+RankBridge	Wang38I.rankOneMod_rank._proof_1_1	propext Classical.choice Quot.sound
+FrameExtraction	Wang38I.published_matrix_of_neighbor_frame	propext Classical.choice Quot.sound
+FrameExtraction	Wang38I.neighbor_frame_integral_span	propext Classical.choice Quot.sound
+FrameExtraction	Wang38I.neighbor_frame_nonintegral	propext Classical.choice Quot.sound
+FrameExtraction	Wang38I.exactLevel_of_numerator_nonzero._proof_1_1	propext Quot.sound
+FrameExtraction	Wang38I.frame_reconstruction	propext Classical.choice Quot.sound
+FrameExtraction	Wang38I.exactLevel_of_numerator_nonzero	propext Classical.choice Quot.sound
+FrameExtraction	Wang38I.published_matrix_of_neighbor_frame._proof_1_1	propext Quot.sound
+SourceNeighbor	Wang38I.published_matrix_of_orthonormal_Z_basis	propext Classical.choice Quot.sound
+SourceNeighbor	Wang38I.source_neighbor	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.rationalRealMap_injective	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.realNeighbor_span	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.integral_cast_iff._simp_1_1	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.realNeighbor_isZLattice	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.integral_selfDual_discrete._simp_1_2	propext
+RationalNeighborRealization	Wang38I.integral_cast_iff	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.rationalRealMap._proof_2	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.rationalRealMap._proof_3	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.rationalRealMap._proof_1	propext
+RationalNeighborRealization	Wang38I.rationalRealMap	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.rationalRealMap_inner	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.real_coordinate_mem._simp_1_1	propext
+RationalNeighborRealization	Wang38I.integral_selfDual_discrete._proof_1_3	propext Quot.sound
+RationalNeighborRealization	Wang38I.rationalRealMap_apply	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.realNeighbor_selfDual	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.real_coordinate_mem	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.published_conjecture38I	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.rational_coordinate_mem	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.rationalNeighbor_orthonormal_basis	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.integral_selfDual_discrete._simp_1_1	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.realNeighbor	propext Classical.choice Quot.sound
+RationalNeighborRealization	Wang38I.integral_selfDual_discrete	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.double_uniform_residue_exists._proof_1_9	propext Quot.sound
+UniformConstruction	Wang38I.double_uniform_residue_exists._simp_1_8	propext
+UniformConstruction	Wang38I.uniform_orthogonal	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.uniform_orthogonal._simp_1_2	propext
+UniformConstruction	Wang38I.uniform_residue_exists	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.double_uniform_residue_exists._proof_1_1	propext Quot.sound
+UniformConstruction	Wang38I.uniform_residue_exists._proof_1_1	propext Quot.sound
+UniformConstruction	Wang38I.double_uniform_residue_exists._simp_1_3	propext
+UniformConstruction	Wang38I.double_uniform_residue_exists._simp_1_5	propext
+UniformConstruction	Wang38I.uniform_numerator._simp_1_8	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.uniform_numerator._simp_1_9	propext
+UniformConstruction	Wang38I.uniform_numerator._simp_1_3	propext
+UniformConstruction	Wang38I.uniform_numerator._simp_1_5	propext
+UniformConstruction	Wang38I.uniform_residue_exists._proof_1_2	propext Quot.sound
+UniformConstruction	Wang38I.uniform_residue_exists._proof_1_3	propext Quot.sound
+UniformConstruction	Wang38I.uniformNumerator.eq_1	
+UniformConstruction	Wang38I.uniform_numerator	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.uniformNumerator	
+UniformConstruction	Wang38I.double_uniform_residue_exists._proof_1_10	propext Quot.sound
+UniformConstruction	Wang38I.double_uniform_residue_exists._proof_1_12	propext Quot.sound
+UniformConstruction	Wang38I.double_uniform_residue_exists	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.double_uniform_residue_exists._proof_1_11	propext Quot.sound
+UniformConstruction	Wang38I.uniformMatrix	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.uniform_regular	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.double_uniform_residue_exists._simp_1_4	propext
+UniformConstruction	Wang38I.double_uniform_residue_exists._simp_1_7	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.double_uniform_residue_exists._simp_1_2	propext
+UniformConstruction	Wang38I.double_uniform_residue_exists._simp_1_6	propext
+UniformConstruction	Wang38I.uniform_residue_exists._proof_1_4	propext Quot.sound
+UniformConstruction	Wang38I.uniformMatrix.eq_1	propext Classical.choice Quot.sound
+UniformConstruction	Wang38I.uniform_numerator._simp_1_4	propext
+UniformConstruction	Wang38I.uniform_numerator._simp_1_7	propext
+UniformConstruction	Wang38I.uniform_numerator._simp_1_6	propext
+UniformConstruction	Wang38I.uniform_numerator_mod	propext
+BalancedReflection	Wang38I.reflection_regular._simp_1_3	propext Quot.sound
+BalancedReflection	Wang38I.reflection_numerator._simp_1_4	propext
+BalancedReflection	Wang38I.reflection_numerator._simp_1_6	propext
+BalancedReflection	Wang38I.reflection_numerator._simp_1_7	propext
+BalancedReflection	Wang38I.reflectionMatrix.eq_1	propext Classical.choice Quot.sound
+BalancedReflection	Wang38I.reflection_regular	propext Classical.choice Quot.sound
+BalancedReflection	Wang38I.reflectionMatrix	propext Classical.choice Quot.sound
+BalancedReflection	Wang38I.reflection_numerator._simp_1_5	propext
+BalancedReflection	Wang38I.balanced_reflection_exists	propext Classical.choice Quot.sound
+BalancedReflection	Wang38I.reflection_orthogonal	propext Classical.choice Quot.sound
+BalancedReflection	Wang38I.reflection_numerator._simp_1_8	propext Classical.choice Quot.sound
+BalancedReflection	Wang38I.reflection_numerator._simp_1_9	propext
+BalancedReflection	Wang38I.reflection_numerator	propext Classical.choice Quot.sound
+BalancedReflection	Wang38I.reflection_regular._simp_1_2	propext Quot.sound
+BalancedReflection	Wang38I.reflectionNumerator	
+BalancedReflection	Wang38I.reflection_numerator._simp_1_3	propext
+BalancedReflection	Wang38I.reflectionNumerator.eq_1	
+BalancedReflection	Wang38I.balanced_reflection_exists._proof_1_1	propext Quot.sound
+SmallDimensions	Wang38I.published_conjecture38I_dimension_le_two	propext Classical.choice Quot.sound
+SmallDimensions	Wang38I.no_admissible_dimension_two._proof_1_1	propext Quot.sound
+SmallDimensions	Wang38I.no_admissible_dimension_two	propext Classical.choice Quot.sound
+SmallDimensions	Wang38I.no_admissible_dimension_two._proof_1_2	propext Quot.sound
+SmallDimensions	Wang38I.no_admissible_dimension_two._proof_1_3	propext Quot.sound
+SmallDimensions	Wang38I.published_conjecture38I_dimension_le_two._proof_1_1	propext Quot.sound
+PrimeThree	Wang38I.ternarySign_spec._proof_1_1	propext Quot.sound
+PrimeThree	Wang38I.prime_three_dimension	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.prime_three_dimension_six._proof_1_1	propext Quot.sound
+PrimeThree	Wang38I.sign_sum_bounds._proof_1_2	propext Quot.sound
+PrimeThree	Wang38I.sign_sum_max._proof_1_2	propext Quot.sound
+PrimeThree	Wang38I.prime_three_dimension_three	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.sign_sum_bounds._proof_1_3	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.prime_three_dimension._proof_1_1	propext Quot.sound
+PrimeThree	Wang38I.sign_sum_min._proof_1_2	propext Quot.sound
+PrimeThree	Wang38I.sign_sum_min	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.sign_sum_bounds._proof_1_4	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.published_conjecture38I_prime_three._proof_1_1	propext Quot.sound
+PrimeThree	Wang38I.sumI_mod_congr	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.ternarySign_spec	propext Quot.sound
+PrimeThree	Wang38I.sign_sum_bounds	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.sign_sum_max	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.sign_sum_min._proof_1_1	propext Quot.sound
+PrimeThree	Wang38I.ternarySign	
+PrimeThree	Wang38I.sign_sum_bounds._proof_1_1	propext Quot.sound
+PrimeThree	Wang38I.sign_sum_max._proof_1_1	propext Quot.sound
+PrimeThree	Wang38I.sign_norm	propext Quot.sound
+PrimeThree	Wang38I.prime_three_dimension_six	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.ternarySign_spec._proof_1_2	propext Quot.sound
+PrimeThree	Wang38I.published_conjecture38I_prime_three	propext Classical.choice Quot.sound
+PrimeThree	Wang38I.prime_three_dimension_three._proof_1_1	propext Quot.sound
+PrimeThree	Wang38I.prime_three_dimension_three._proof_1_2	propext Quot.sound
+UnitSplitting	Wang38I.Classification.IntegralOn._proof_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitJoin.eq_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection_fixed	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unit_decomposition	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitComplement_eq_map	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitComplement_selfDual	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.integralOn_of_selfDual	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitComplement	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitJoin._proof_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitJoin._proof_4	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection._proof_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection._proof_4	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitSplittingEquiv._proof_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitPerp.eq_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection._proof_2	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection._proof_3	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.mem_unitPerp._simp_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unit_decomposition_unique	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitSplittingEquiv_apply	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitPerp	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unit_decomposition._abel_1_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitComplement._proof_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection_coe	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitComplement_finrank	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitComplement_isLattice	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitJoin	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.IntegralOn	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection._simp_2	propext Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection._proof_5	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.mem_unitComplement._simp_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitSplittingEquiv	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection.congr_simp	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection_mem	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unit_pairing_split	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.mem_unitComplement	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitJoin._proof_2	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitJoin._proof_3	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitPerp_finrank	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection_surjective	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitComplement_positive	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitJoin._abel_1	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.mem_unitPerp	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitProjection._abel_3	propext Classical.choice Quot.sound
+UnitSplitting	Wang38I.Classification.unitJoin._proof_5	propext Classical.choice Quot.sound
+UnimodularGram	Wang38I.Classification.integer_gram_det_isUnit	propext Classical.choice Quot.sound
+UnimodularGram	Wang38I.Classification.selfDual_integer_gram	propext Classical.choice Quot.sound
+UnimodularGram	Wang38I.Classification.dual_basis_mem_selfDual	propext Classical.choice Quot.sound
+UnimodularGram	Wang38I.Classification.extended_basis_integer_span	propext Classical.choice Quot.sound
+UnimodularGram	Wang38I.Classification.integer_gram_det_isUnit._simp_1_2	propext
+UnimodularGram	Module.Basis.extendOfIsLattice.congr_simp	propext Classical.choice Quot.sound
+Wang38Full	Wang38.published_conjecture38I	propext Classical.choice Quot.sound
+Wang38Full	Wang38.published_conjecture38	propext Classical.choice Quot.sound

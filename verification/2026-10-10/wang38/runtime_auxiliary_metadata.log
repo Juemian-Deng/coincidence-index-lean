@@ -1,0 +1,23 @@
+def Wang38.Frequency.sumN : ℕ → (ℕ → ℤ) → ℤ :=
+fun x x_1 => Nat.brecOn (motive := fun x => (ℕ → ℤ) → ℤ) x Wang38.Frequency.sumN._f x_1
+partial def Wang38.Frequency.sumN._unsafe_rec : ℕ → (ℕ → ℤ) → ℤ :=
+fun x x_1 =>
+  match x, x_1 with
+  | 0, x => 0
+  | n.succ, f => Wang38.Frequency.sumN._unsafe_rec n f + f n
+'Wang38.Frequency.sumN' does not depend on any axioms
+'Wang38.Frequency.sumN._unsafe_rec' does not depend on any axioms
+DECLARATION_KIND Wang38.Frequency.sumN defnInfo SAFETY Lean.DefinitionSafety.safe
+RUNTIME_FLAGS Wang38.Frequency.sumN unsafe=false partial=false
+DIRECT_KERNEL_CONSTANTS Wang38.Frequency.sumN [Int, Nat, Nat.brecOn, Wang38.Frequency.sumN._f]
+DECLARATION_KIND Wang38.Frequency.sumN._unsafe_rec defnInfo SAFETY Lean.DefinitionSafety.partial
+RUNTIME_FLAGS Wang38.Frequency.sumN._unsafe_rec unsafe=false partial=true
+DIRECT_KERNEL_CONSTANTS Wang38.Frequency.sumN._unsafe_rec [Int,
+ Nat,
+ instHAdd,
+ instOfNat,
+ HAdd.hAdd,
+ Int.instAdd,
+ OfNat.ofNat,
+ Wang38.Frequency.sumN._unsafe_rec,
+ Wang38.Frequency.sumN.match_1]

@@ -1,0 +1,1468 @@
+{
+  "status": "PASS",
+  "source_manifest_sha256": "6e56c25a285ccc7c3f4f5fc58c484ec02ada1fdb5bdfe7a8b6c1443a1449d73d",
+  "order": [
+    "ResidueParityBridge",
+    "DualCardinality",
+    "DualFiberCounting",
+    "ActualFiberBounds",
+    "IntegerEvenCore",
+    "ActualLargeClassBound",
+    "ReducedColumnEnergy",
+    "IntegerNormTwo",
+    "CommonEndpoint",
+    "NormTwoStar",
+    "MatrixLargeClass",
+    "OwnBlockEnergy",
+    "FiniteClassBridge",
+    "FiniteClassRows",
+    "FixedSignCapacity",
+    "SignClassTransfer",
+    "ActualSignClassReduction",
+    "ResidueImageAdapter",
+    "EvenSmallClassBound",
+    "MatrixClassAdapters",
+    "MaximumClass",
+    "RationalResidueConnection",
+    "OrthogonalPresentation",
+    "WrittenTheoremB",
+    "RegressionChecks",
+    "AxiomAudit"
+  ],
+  "compiles": [
+    {
+      "module": "ResidueParityBridge",
+      "source_sha256": "4eee916047a91b4e116dc7dfdd107e4e0e74c6af3ad66b001b2ee6ebb2cc3f74",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.816
+    },
+    {
+      "module": "DualCardinality",
+      "source_sha256": "9699b81c39dfdd48be82f9ad4bff2299175e8d7d5832d7719ae9bed5cc841857",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.814
+    },
+    {
+      "module": "DualFiberCounting",
+      "source_sha256": "d5491c3008d0a630a9ead5006fb922920156c6f164944425bc6e986f04cdad53",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.562
+    },
+    {
+      "module": "ActualFiberBounds",
+      "source_sha256": "df1b62991d8eb6b304773d31904e5cf7fe23c8aff22c4b02b8c43c76753dd39f",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 5.476
+    },
+    {
+      "module": "IntegerEvenCore",
+      "source_sha256": "54f6ece5e3174ce19b4cccc7236745fa67e482285348e1434f1f3fe9f7a2c8fa",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.49
+    },
+    {
+      "module": "ActualLargeClassBound",
+      "source_sha256": "f7fcdb6099354bbda65f9a306a10e44c7d75fa02939f68c7cfb36e6847321b99",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 4.342
+    },
+    {
+      "module": "ReducedColumnEnergy",
+      "source_sha256": "3012d0aebd2780c2f37ea5b25169e4664dc2e859cdbbcfb107279e1fa2a3992a",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 6.972
+    },
+    {
+      "module": "IntegerNormTwo",
+      "source_sha256": "a3f2ac0e216a8c79f077abaed6323e6fcb400281386a815cecb439d0b2827455",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.365
+    },
+    {
+      "module": "CommonEndpoint",
+      "source_sha256": "bcc214a3e37b9e703df0c6e5eebd4dce02a58f161fca78d37ca40d277c791cb9",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.181
+    },
+    {
+      "module": "NormTwoStar",
+      "source_sha256": "75a23bd51d784fddfc3b6445fb7ab3f4e633d269bf8d30463f703eb9ea74e782",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.212
+    },
+    {
+      "module": "MatrixLargeClass",
+      "source_sha256": "e9f7a11c05ffdc1108a0ab21f76f66af14996863a9f0a950cfec8b5850179c98",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.281
+    },
+    {
+      "module": "OwnBlockEnergy",
+      "source_sha256": "3024d1764e2d62c499752b56c494bd839f6d0cd244aae6381ec39a6aee72e6f8",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.389
+    },
+    {
+      "module": "FiniteClassBridge",
+      "source_sha256": "d27577d8ce7c26182f5121247fa7079663a400e53d842433ecf05a5f9e7a3eae",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.26
+    },
+    {
+      "module": "FiniteClassRows",
+      "source_sha256": "588ffd2b0816130b1c939b971c1518b6c5c1b4a61cd40e8af55a652c5ce9d58e",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.391
+    },
+    {
+      "module": "FixedSignCapacity",
+      "source_sha256": "14d8b5fc3fc0c8a498067dc7be4a990d431098a41094a4d4c79b3aec09b87fde",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 7.151
+    },
+    {
+      "module": "SignClassTransfer",
+      "source_sha256": "ae8bddd4d23859bb11a724768aa2301e33ee887573b214596cf6be79239a1add",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 4.963
+    },
+    {
+      "module": "ActualSignClassReduction",
+      "source_sha256": "f0c4b53eea2c6d1b5de46313440cddb469c93dc3b2cc3bc5381850f2329d1bbd",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 4.873
+    },
+    {
+      "module": "ResidueImageAdapter",
+      "source_sha256": "83ce6c1b08fa808cfec7ba4cf3b47bc83657a0e977a37f0c04793e429abddb4e",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.462
+    },
+    {
+      "module": "EvenSmallClassBound",
+      "source_sha256": "2b6d24339e9e11ed21d17fed0217cb58cb9f4c6f20dce0e0c7e2a83b621508cf",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.83
+    },
+    {
+      "module": "MatrixClassAdapters",
+      "source_sha256": "cd96951043d36d1a4835ad2083c5f32cb6c29f0c0a574e5af800a7dc18a2a24c",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.81
+    },
+    {
+      "module": "MaximumClass",
+      "source_sha256": "d0c114874b0dcf3a704b25f3713886bad2086fa9292fb0b1010cd42c9843793e",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 3.333
+    },
+    {
+      "module": "RationalResidueConnection",
+      "source_sha256": "c221e9033b9c148499a46fbf1e48e1147390ac56dbdaabbffa8f34de8eb02641",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 4.183
+    },
+    {
+      "module": "OrthogonalPresentation",
+      "source_sha256": "b3350617eb7d76760a5e8278012e934ba115409b741fb7f8286dff8496c0286b",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 2.776
+    },
+    {
+      "module": "WrittenTheoremB",
+      "source_sha256": "54639ff7b3ee6a57be008e9e4fd89d5961df786ae054af309720381864d8ef25",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 5.432
+    },
+    {
+      "module": "RegressionChecks",
+      "source_sha256": "0c0ad2b9faedf10bf1f407f8004b42ae29ccdf15ca10e49b4e8522a2b2b7c4f7",
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 12.84
+    },
+    {
+      "module": "AxiomAudit",
+      "source_sha256": "2c9d4584478175355f2fa10696541290dd7709d15a5db5453918f4f4b581d1c4",
+      "exit_code": 0,
+      "log_sha256": "1e2f92b4d7a37b4e719bffe07e20277406d2abedd799afd629c9a7bc8448b5c7",
+      "seconds": 3.527
+    },
+    {
+      "module": "PortableStatementAudit",
+      "source_sha256": "9b35adf77e726cd8760c9429a4c1754a1b6c268b2f2c7ea970517199d549c2e9",
+      "exit_code": 0,
+      "log_sha256": "1610b8646ce9b688ccb32ca38ca2349a2b41087bc3b4f50c726190545906c6ef",
+      "seconds": 11.382
+    },
+    {
+      "module": "AllDeclarationsAxiomAudit",
+      "source_sha256": "2f3637d94089414de1c25586b6352ee7bedd9a0225903eb8f079f5bd73436777",
+      "exit_code": 0,
+      "log_sha256": "238a29e65142c1ef2cd42af7a2859a6cc0b8181cc39c686fa4a357ddcb1b9bab",
+      "seconds": 3.851
+    }
+  ],
+  "axiom_reports": {
+    "ActualFiberBounds.eval_fiber_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.card_le_kernel_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.card_le_nonzero_kernel_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.signClass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.oriented_fiber_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.sign_target_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.orientedRow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.orientedRow_sign": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.orientedRow_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.orientedRow_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.abs_bin_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualFiberBounds.zero_bin_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ActualLargeClassBound.bound_from_reduced_column": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenSmallClassBound.even_bound_of_small_classes": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixClassAdapters.column_class_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixClassAdapters.row_class_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixClassAdapters.row_evaluation_class_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MaximumClass.exists_large_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MaximumClass.mem_own_class": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "WrittenTheoremB.integer_even_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "WrittenTheoremB.integer_even_index_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "WrittenTheoremB.writtenTheoremB": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourMatrix_transpose": [
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourMatrix_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourMatrix_kernel_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourMatrix_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.empty_matrix_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.empty_dual_fiber": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourMatrix_final_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.doubled_fourMatrix_kernel_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.doubled_fourMatrix_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.nonminimal_denominator_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourRational": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourRational_orthogonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourRational_coincidence_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourRational_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "EvenBoundRegression.fourMatrix": [],
+    "IndependentStatementAudit.expanded_written_statement": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IndependentStatementAudit.actual_index_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IndependentStatementAudit.empty_public_application": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.actual_sign_class_reduced_column": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.pair_eq_of_members": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.triangle_classification": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.no_common_endpoint_card_le_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.common_endpoint_of_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.indexed_common_endpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.indexed_star_decomposition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.pair_inter_eq_singleton": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.mem_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.supports_meet_of_inner_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.inner_eq_common_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.common_endpoint_signs_agree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.signed_common_endpoint_of_distinct": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.inner_one_supports_ne": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CommonEndpoint.signed_common_endpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualCardinality.enough_roots_zmod": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualCardinality.card_dual": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualCardinality.ker_eval_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualCardinality.card_eval_ker": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualCardinality.card_eval_ker_mul_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualCardinality.card_eval_ker_eq_div": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualCardinality.card_nonempty_eval_fiber": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualFiberCounting.outside_energy_identity": [
+      "Quot.sound",
+      "propext"
+    ],
+    "DualFiberCounting.partition_numeric_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualFiberCounting.high_rows_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualFiberCounting.high_rows_energy_of_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualFiberCounting.low_fiber_capacity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualFiberCounting.finite_partition_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualFiberCounting.finite_partition_from_bins": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualFiberCounting.involution_capacity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DualFiberCounting.parity_orbit_capacity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.finite_oriented_class_normal_form_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.finite_oriented_nonzero_class_normal_form": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.dot_sub_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.external_column_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.own_rows_equal_residue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.finite_oriented_class_row_containment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.zero_of_dvd_of_abs_lt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.fixed_entry_trichotomy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.fixed_entry_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.same_residue_zero_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.fixed_of_same_residue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.columnSupport": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.mem_columnSupport": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.fixed_column_support_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.same_residue_column_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.fixed_class_card_le_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.columnResidue": [
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.absoluteClass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.column_fixed_divisibility": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.column_same_residue_divisibility": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.absoluteClass_card_le_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.large_class_not_fixed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.row_norm_of_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.column_norm_of_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.gram_fixed_class_card_le_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.fixed_column_denominator_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.gram_fixed_row_class_card_le_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.strict_core_of_nonzero_residue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerEvenCore.rowEvaluation_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.normSq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.dot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.mem_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.coordinate_eq_zero_or_unit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.coordinate_unit_of_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.support_card_eq_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.support_eq_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.eq_signed_unit_vectors": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.dot_eq_sum_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.dot_eq_zero_of_disjoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.supports_intersect_of_dot_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.supports_ne_of_dot_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.support_pair_properties_of_dot_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.OrthogonalColumns": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.dot_comm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.dot_sub_sub": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.dot_scale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.normSq_eq_dot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.differenceRoot_scale": [
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.differenceRoot_dot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.differenceRoot_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.oriented_class_signed_normal_form": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.selected_class_signed_normal_form": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.extend_coordinate_signs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.oriented_class_normal_form": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.row_signs_preserve_dot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NormTwoStar.signed_common_endpoint_of_norm_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NormTwoStar.star_decomposition_of_norm_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NormTwoStar.signed_star_decomposition_of_norm_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.exists_orthogonal_integer_presentation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.normSq_sub_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.normSq_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.own_entries_and_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.own_block_energy_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.outside_block_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.oriented_class_normal_form_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.own_value_pos_of_nonzero_residue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MatrixLargeClass.own_value_linear_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.commonDenominator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.commonDenominator_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.entry_den_dvd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.integerNumerator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.integerNumerator_cast": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.integerNumerator_div": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.exists_integer_presentation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.coincidenceSubgroup": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.mem_coincidenceSubgroup_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.numerator_mulVec_cast": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.mem_coincidence_iff_dvd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.coincidenceSubgroup_eq_residueKernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.column_gram_entries": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.column_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.row_gram_entries": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.row_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.column_normSq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.row_normSq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.card_residueImage_eq_coincidence_index": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.CoincidenceEven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.kernelEven_of_coincidenceEven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.coincidenceEven_iff_kernelEven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.coincidenceQuotientEquivImage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.coincidenceQuotientEquivImage_mk": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.finite_coincidence_quotient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.coincidenceQuotientEquivImage_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RationalResidueConnection.presentation_iff_scaled": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.columnOrder": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.columnScale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.reducedColumn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.column_order_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.column_order_dvd_level": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.column_scale_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.level_eq_scale_mul_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.column_scale_dvd_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.original_column_eq_scale_mul_reduced": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.scaled_outside_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.column_scale_dvd_own_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ReducedColumnEnergy.reduce_own_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.columnLabel_val_eq_columnResidue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.columnResidue_ne_zero_of_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.gram_even_core": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.image_absoluteClass_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "FixedSignCapacity.gram_even_fixed_image_class_card_le_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.residueMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.ResidueImage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.imageMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.residueKernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.mem_residueKernel_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.quotientEquivImage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.quotientEquivImage_mk": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.card_image_eq_index": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.finite_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.finite_quotient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.image_annihilated": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.columnLabel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.columnLabel_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.imageMap_eq_sum_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.exists_sum_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.labels_generate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.coordinateParity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.KernelEven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.kernel_le_parity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.parityCharacter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.parityCharacter_imageMap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.parityCharacter_columnLabel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.parityCharacter_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.parityCharacter_surjective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.OddImage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.parity_kernel_index": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.twice_card_oddImage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.card_oddImage_eq_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.twice_card_oddImage_eq_index": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.twice_fintype_card_oddImage": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.oddNeg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.oddNeg_involutive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.oddColumnLabel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.columnLabel_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.columnLabel_eq_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.columnLabel_eq_neg_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.rowEvaluation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.rowEvaluation_columnLabel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.hom_ext_on_columns": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.rowEvaluation_eq_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.rowEvaluation_eq_neg_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.rowEvaluation_eq_zero_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.norm_sum_parity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "ResidueParityBridge.kernelEven_of_even_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.column_signs_preserve_orthogonality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.orient_residue_class": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.residue_eq_iff_dvd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.dvd_of_sign_mul": [
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.finite_sign_class_row_containment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.residue_same_sign_of_signed_dvd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.absoluteClass_card_le_transpose_class": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.orthogonalColumns_of_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.row_class_card_le_max_of_column_cap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.row_class_card_le_of_column_cap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.column_signs_preserve_row_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.maxClassSize": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.class_card_le_max": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.max_row_class_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.max_classes_equal_of_large": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.finite_nonzero_sign_class_normal_form": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "SignClassTransfer.signed_entry_square": [
+      "propext"
+    ],
+    "SignClassTransfer.original_outside_block_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IntegerNormTwo.unitVector": [],
+    "MatrixLargeClass.column": [],
+    "MatrixLargeClass.differenceRoot": [],
+    "SignClassTransfer.columnSigned": []
+  },
+  "kernel_dependency_graph": {
+    "nodes": 31197,
+    "sha256": "ddf2b82810cfdc257503d52efaa8a7cb0c52a34c895b3f3afab20968e6c9cf14",
+    "bytes": 10837071,
+    "recursive_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "seconds": 125.065,
+  "project_source_modules": 26,
+  "statement_helpers": 2
+}

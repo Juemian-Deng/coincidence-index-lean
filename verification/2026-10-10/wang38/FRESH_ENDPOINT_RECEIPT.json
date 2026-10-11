@@ -1,0 +1,102 @@
+{
+  "utc": "2026-10-10T08:18:10.049285+00:00",
+  "source_rebuild_status": "PASS",
+  "source_and_axiom_modules": 42,
+  "module_order": [
+    "Wang38Targets",
+    "InnerProduct",
+    "SquareDimensionBound",
+    "MatrixNumerator",
+    "FrequencyInequality",
+    "VectorFrequency",
+    "MathlibBridge",
+    "SwapArithmetic",
+    "ExchangeLemma",
+    "ResidueBlocks",
+    "Wang38II",
+    "PublishedStatement",
+    "NormLift",
+    "PrimeNeighbor",
+    "Characteristic",
+    "SelfDual",
+    "LatticeBridge",
+    "RankBridge",
+    "SmallDimensions",
+    "FrameOrientation",
+    "FrameExtraction",
+    "UniformConstruction",
+    "BalancedReflection",
+    "PrimeThree",
+    "SourceNeighbor",
+    "UnitSplitting",
+    "ShortVectorBounds",
+    "UnimodularGram",
+    "CovolumeGram",
+    "RootPairing",
+    "RootComplement",
+    "RootParityIndex",
+    "RootDeterminant",
+    "UnitOrNormFour",
+    "IndexTwoStandard",
+    "NormFourNeighbor",
+    "RealUnitSplitting",
+    "StandardTransport",
+    "LowRankClassification",
+    "RationalNeighborRealization",
+    "Wang38Full",
+    "FullAxiomAudit"
+  ],
+  "warnings_errors": 0,
+  "reported_axiom_declarations": 366,
+  "endpoint_axioms": {
+    "Wang38.published_conjecture38I": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Wang38.published_conjecture38II": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Wang38.published_conjecture38": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "compilation_log_sha256": "c0766ef3c5af6871596607ddb874a39d0653da168f51de8a7dd45231cb9b60a2",
+  "extra_all_import_kernel_replay_status": "PASS",
+  "fresh_all_generated_declaration_audit_status": "PASS_WITH_DOCUMENTED_UNREFERENCED_RUNTIME_AUXILIARY",
+  "all_local_generated_declarations": 731,
+  "proof_module_coverage": 41,
+  "endpoint_recursive_constant_counts": {
+    "Wang38.published_conjecture38I": 51526,
+    "Wang38.published_conjecture38II": 14885,
+    "Wang38.published_conjecture38": 51778
+  },
+  "endpoint_recursive_closures_missing_unsafe_partial_count": 0,
+  "custom_axiom_count": 0,
+  "source_proof_hole_count": 0,
+  "runtime_auxiliary": {
+    "name": "Wang38.Frequency.sumN._unsafe_rec",
+    "kind": "defnInfo",
+    "safety": "partial",
+    "axioms": [],
+    "source_definition": "ordinary structural recursion on Nat",
+    "logical_definition_safety": "safe",
+    "logical_definition_implementation": "Nat.brecOn",
+    "in_final_endpoint_dependency_closures": false
+  },
+  "initial_strict_generated_declaration_audit": {
+    "status": "FAIL_OVERSCOPED_RUNTIME_FLAG_CHECK",
+    "retained_log": "fresh_all_declaration_audit.log",
+    "reason": "The generated executable helper is partial. This is not a partial proof dependency; the subsequent strict endpoint closure check passed."
+  },
+  "fresh_closure_audit_log_sha256": "7bce8795ae8658c1aaf1ed13e74eb0b539da1ea4b058576cb9cb8a6b031c4440",
+  "runtime_auxiliary_metadata_log_sha256": "972246253551e91f0d292718d53b137fab73cffd9f64d5533796c652b9490ba1",
+  "extra_all_import_kernel_replay_exit": 0,
+  "extra_all_import_kernel_replay_real": "13m4.168s",
+  "extra_all_import_kernel_replay_log_sha256": "30cdcb3c9fb85060b44418b9bcb97c85d231afeee2089bfff46e8d4f48cf1855",
+  "utc_final": "2026-10-10T08:31:23.505506+00:00"
+}

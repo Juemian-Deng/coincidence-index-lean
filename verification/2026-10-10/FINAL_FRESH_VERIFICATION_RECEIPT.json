@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-10T08:31:23.506365+00:00",
+  "status": "PASS_WITH_DOCUMENTED_NONPROOF_RUNTIME_AUXILIARY",
+  "source_compilations": {
+    "wang_source_and_axiom_modules": 42,
+    "even_source_modules": 26,
+    "even_extra_auditors": 2,
+    "global_source_modules": 34,
+    "global_producer_and_independent_auditors": 3
+  },
+  "endpoints": {
+    "Wang38.published_conjecture38I": "PASS",
+    "Wang38.published_conjecture38II": "PASS",
+    "Wang38.published_conjecture38": "PASS",
+    "WrittenTheoremB.writtenTheoremB": "PASS",
+    "GlobalSupportBound.rational_global_support_bound": "PASS"
+  },
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "source_sorry_admit_custom_axiom_count": 0,
+  "wang_proof_closures_unsafe_partial_missing_count": 0,
+  "wang_unreferenced_generated_partial_runtime_auxiliary": "Wang38.Frequency.sumN._unsafe_rec",
+  "wang_whole_import_fresh_kernel": "PASS_EXIT_0",
+  "global_optional_whole_import_fresh_kernel": "NOT_REQUESTED",
+  "frozen_sources_modified": false,
+  "independent_kernel_implementation_claim": false,
+  "scope_note": "Even lower bound only; physical dictionary/attainment/minimizer classification and general reflection/additive classifications remain written."
+}

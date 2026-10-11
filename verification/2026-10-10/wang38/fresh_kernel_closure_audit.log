@@ -1,0 +1,58 @@
+'Wang38.published_conjecture38I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38II' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38' depends on axioms: [propext, Classical.choice, Quot.sound]
+MODULE_DECLARATIONS ShortVectorBounds: 17
+MODULE_DECLARATIONS CovolumeGram: 7
+MODULE_DECLARATIONS RootPairing: 8
+MODULE_DECLARATIONS RootComplement: 27
+MODULE_DECLARATIONS RootParityIndex: 23
+MODULE_DECLARATIONS RootDeterminant: 18
+MODULE_DECLARATIONS UnitOrNormFour: 10
+MODULE_DECLARATIONS RealUnitSplitting: 38
+MODULE_DECLARATIONS NormFourNeighbor: 33
+MODULE_DECLARATIONS IndexTwoStandard: 24
+MODULE_DECLARATIONS StandardTransport: 14
+MODULE_DECLARATIONS LowRankClassification: 12
+MODULE_DECLARATIONS Wang38Targets: 25
+MODULE_DECLARATIONS InnerProduct: 42
+MODULE_DECLARATIONS SquareDimensionBound: 14
+MODULE_DECLARATIONS MatrixNumerator: 10
+MODULE_DECLARATIONS MathlibBridge: 13
+MODULE_DECLARATIONS NormLift: 6
+MODULE_DECLARATIONS PrimeNeighbor: 21
+MODULE_DECLARATIONS Characteristic: 11
+MODULE_DECLARATIONS SelfDual: 8
+MODULE_DECLARATIONS LatticeBridge: 11
+MODULE_DECLARATIONS FrameOrientation: 7
+MODULE_DECLARATIONS SwapArithmetic: 20
+MODULE_DECLARATIONS ExchangeLemma: 24
+LOCAL_RUNTIME_PARTIAL Wang38.Frequency.sumN._unsafe_rec
+MODULE_DECLARATIONS FrequencyInequality: 53
+MODULE_DECLARATIONS VectorFrequency: 20
+MODULE_DECLARATIONS ResidueBlocks: 19
+MODULE_DECLARATIONS Wang38II: 16
+MODULE_DECLARATIONS PublishedStatement: 9
+MODULE_DECLARATIONS RankBridge: 3
+MODULE_DECLARATIONS FrameExtraction: 7
+MODULE_DECLARATIONS SourceNeighbor: 2
+MODULE_DECLARATIONS RationalNeighborRealization: 22
+MODULE_DECLARATIONS UniformConstruction: 34
+MODULE_DECLARATIONS BalancedReflection: 18
+MODULE_DECLARATIONS SmallDimensions: 6
+MODULE_DECLARATIONS PrimeThree: 26
+MODULE_DECLARATIONS UnitSplitting: 45
+MODULE_DECLARATIONS UnimodularGram: 6
+MODULE_DECLARATIONS Wang38Full: 2
+ALL_LOCAL_DECLARATIONS 731
+ENDPOINT_TRANSITIVE_CONSTANT_COUNT Wang38.published_conjecture38I 51526
+ENDPOINT_RECURSIVE_AXIOM Wang38.published_conjecture38I propext
+ENDPOINT_RECURSIVE_AXIOM Wang38.published_conjecture38I Classical.choice
+ENDPOINT_RECURSIVE_AXIOM Wang38.published_conjecture38I Quot.sound
+ENDPOINT_TRANSITIVE_CONSTANT_COUNT Wang38.published_conjecture38II 14885
+ENDPOINT_RECURSIVE_AXIOM Wang38.published_conjecture38II propext
+ENDPOINT_RECURSIVE_AXIOM Wang38.published_conjecture38II Classical.choice
+ENDPOINT_RECURSIVE_AXIOM Wang38.published_conjecture38II Quot.sound
+ENDPOINT_TRANSITIVE_CONSTANT_COUNT Wang38.published_conjecture38 51778
+ENDPOINT_RECURSIVE_AXIOM Wang38.published_conjecture38 propext
+ENDPOINT_RECURSIVE_AXIOM Wang38.published_conjecture38 Classical.choice
+ENDPOINT_RECURSIVE_AXIOM Wang38.published_conjecture38 Quot.sound

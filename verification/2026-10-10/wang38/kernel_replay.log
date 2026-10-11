@@ -1,0 +1,7 @@
+COMMAND: lake env leanchecker --fresh -v Wang38Full
+replaying Wang38Full with --fresh
+
+real	13m4.168s
+user	12m47.708s
+sys	0m13.456s
+KERNEL_REPLAY_EXIT_CODE=0

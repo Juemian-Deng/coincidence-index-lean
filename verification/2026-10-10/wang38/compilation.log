@@ -1,0 +1,627 @@
+REPLAY_DIRECTORY=/workspace/scratch/ab284a076bfb/research/fresh_lean_verification_20261010/wang_both_replay
+UTC_START=2026-10-10T08:13:49+00:00
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+MATHLIB_COMMIT=d13f23b723b8a846827a245b89c10fc7d3f11612
+COMPILING=Wang38Targets
+'Wang38.generated_is_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.no_admissible_dimension_one' depends on axioms: [propext, Quot.sound]
+'Wang38.conjecture38I_dimension_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=InnerProduct
+'Wang38.inner_product_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.orthogonal_or_equal_up_to_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=SquareDimensionBound
+'Wang38.numerator_column_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.generated_dimension_le_prime_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.no_generated_above_prime_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=MatrixNumerator
+'Wang38.integer_unit_dot_nonzero' depends on axioms: [propext, Quot.sound]
+'Wang38.numerator_column_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.numerator_full_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=FrequencyInequality
+'Wang38.Frequency.most_frequent_magnitude' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Frequency.weighted_dimension_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=VectorFrequency
+'Wang38.magnitude_histogram_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.vector_frequency_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.vector_frequency_dimension_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=MathlibBridge
+'Wang38.orthogonal_transpose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.numerator_columns_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.nonzero_residue_line_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residue_class_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=SwapArithmetic
+'Wang38.same_residue_orthogonal_or_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residue_pair_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.no_disjoint_varying_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=ExchangeLemma
+'Wang38.residue_block_two_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residue_block_one_exception' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residue_block_exchange_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=ResidueBlocks
+'Wang38.exists_maximal_absResidueBlock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.magnitudeCount_le_maximal_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.orientSign_on_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=Wang38II
+'Wang38.generated_dimension_le_twice_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.conjecture38II' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=PublishedStatement
+'Wang38.matrix_rank_one_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38II' depends on axioms: [propext, Classical.choice, Quot.sound]
+def Wang38.PublishedConjecture38II : Prop :=
+∀ (p n : ℕ),
+  Nat.Prime p → p % 2 = 1 → 2 * p + 1 ≤ n → ∀ (v : IVector n), Admissible p v → ¬∃ Q, PublishedGeneratedPrimitive p v Q
+def Wang38.PublishedGeneratedPrimitive : {n : ℕ} → ℕ → IVector n → QMatrix n → Prop :=
+fun {n} p v Q =>
+  Orthogonal Q ∧ Regular Q ∧ ExactLevel p Q ∧ ∃ A, Numerator p Q A ∧ (residueMatrix A).rank = 1 ∧ ColumnsInLine p v A
+theorem Wang38.published_conjecture38II : PublishedConjecture38II :=
+fun p n hp ho hn v hv hQ =>
+  have hp' := ⟨Nat.Prime.two_le hp, ⟨ho, (Nat.prime_def.mp hp).right⟩⟩;
+  Exists.casesOn hQ fun Q hQ =>
+    have hb :=
+      generated_dimension_le_twice_prime hp' v hv.left Q
+        (published_generated_implies_basis_generated hp' v hv.left Q hQ);
+    published_conjecture38II._proof_1_1 p n ho hn hb
+COMPILATION_EXIT_CODE=0
+COMPILING=NormLift
+'Wang38I.exists_norm_divisible_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.exists_admissible_norm_divisible_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=PrimeNeighbor
+'Wang38I.neighbor_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=Characteristic
+'Wang38I.ones_characteristic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_is_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=SelfDual
+'Wang38I.neighbor_self_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=LatticeBridge
+'Wang38I.neighbor_isLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_dualSubmodule' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=RankBridge
+'Wang38I.rankOneMod_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.generated_implies_published' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=SmallDimensions
+'Wang38I.published_conjecture38I_dimension_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=FrameOrientation
+'Wang38I.frame_column_sums' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.orient_neighbor_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=FrameExtraction
+'Wang38I.neighbor_frame_integral_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_frame_nonintegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.exactLevel_of_numerator_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.published_matrix_of_neighbor_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=UniformConstruction
+'Wang38I.uniform_residue_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.double_uniform_residue_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=BalancedReflection
+'Wang38I.balanced_reflection_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=PrimeThree
+'Wang38I.published_conjecture38I_prime_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=SourceNeighbor
+'Wang38I.source_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.published_matrix_of_orthonormal_Z_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=UnitSplitting
+'Wang38I.Classification.unit_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unit_decomposition_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unit_pairing_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitComplement_isLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitComplement_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitComplement_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitSplittingEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=ShortVectorBounds
+'Wang38I.Classification.ball_sqrt_three_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.exists_unit_or_root_covolume_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.exists_unit_or_root_covolume_sq_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=UnimodularGram
+'Wang38I.Classification.integer_gram_det_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_integer_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=CovolumeGram
+'Wang38I.Classification.covolume_sq_eq_gram_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_covolume_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_exists_unit_or_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=RootPairing
+'Wang38I.Classification.root_has_pairing_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.root_pairing_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=RootComplement
+'Wang38I.Classification.rootComplement_isZLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootComplement_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=RootParityIndex
+'Wang38I.Classification.rootParityKernel_index_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityLattice_relIndex_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityLattice_covolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=RootDeterminant
+'Wang38I.Classification.rootParitySplitting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootComplement_covolume_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=UnitOrNormFour
+'Wang38I.Classification.selfDual_rank_one_has_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_unit_or_orthogonal_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_unit_or_normFour' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=IndexTwoStandard
+'Wang38I.Classification.indexTwo_standard_norm_sq_alternative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.Classification.indexTwo_standard_alternative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_double_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_integral_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=NormFourNeighbor
+'Wang38I.Classification.normFour_unit_or_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=RealUnitSplitting
+'Wang38I.Classification.realUnitComplement_isZLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitComplement_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitPerp_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitComplement_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitSplittingEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitExtendBasis_orthonormal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitExtendBasis_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=StandardTransport
+'Wang38I.Classification.isometryLatticeMap_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.isometryLatticeMap_relIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.orthonormal_span_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_isometry_alternative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_orthonormalIntegerBasis_alternative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.Classification.indexTwo_orthonormalIntegerBasis_norm_sq_alternative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=LowRankClassification
+'Wang38I.Classification.lowRank_orthonormal_integer_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.odd_lowRank_orthonormal_integer_basis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=RationalNeighborRealization
+'Wang38I.rationalRealMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.rationalRealMap_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.realNeighbor_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.realNeighbor_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.integral_selfDual_discrete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.realNeighbor_isZLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.rationalNeighbor_orthonormal_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.published_conjecture38I' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=Wang38Full
+def Wang38.PublishedConjecture38I : Prop :=
+∀ (p n : ℕ),
+  Nat.Prime p → p % 2 = 1 → 0 < n → n ≤ 8 → ∀ (v : IVector n), Admissible p v → ∃ Q, PublishedGeneratedPrimitive p v Q
+def Wang38.PublishedConjecture38II : Prop :=
+∀ (p n : ℕ),
+  Nat.Prime p → p % 2 = 1 → 2 * p + 1 ≤ n → ∀ (v : IVector n), Admissible p v → ¬∃ Q, PublishedGeneratedPrimitive p v Q
+def Wang38.PublishedGeneratedPrimitive : {n : ℕ} → ℕ → IVector n → QMatrix n → Prop :=
+fun {n} p v Q =>
+  Orthogonal Q ∧ Regular Q ∧ ExactLevel p Q ∧ ∃ A, Numerator p Q A ∧ (residueMatrix A).rank = 1 ∧ ColumnsInLine p v A
+def Wang38.ExactLevel : {n : ℕ} → ℕ → QMatrix n → Prop :=
+fun {n} p Q => 0 < p ∧ ClearsDenominators p Q ∧ ∀ (d : ℕ), 0 < d → ClearsDenominators d Q → p ≤ d
+def Wang38.Admissible : {n : ℕ} → ℕ → IVector n → Prop :=
+fun {n} p v => FullSupport p v ∧ sumI v % ↑p = 0 ∧ dotI v v % ↑p = 0
+def Wang38.FullSupport : {n : ℕ} → ℕ → IVector n → Prop :=
+fun {n} p v => ∀ (i : Fin n), v i % ↑p ≠ 0
+'Wang38.published_conjecture38I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38II' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+COMPILING=FullAxiomAudit
+'Wang38.IVector' does not depend on any axioms
+'Wang38.IMatrix' does not depend on any axioms
+'Wang38.QMatrix' does not depend on any axioms
+'Wang38.sumI' does not depend on any axioms
+'Wang38.sumQ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.dotI' does not depend on any axioms
+'Wang38.OddPrime' does not depend on any axioms
+'Wang38.FullSupport' does not depend on any axioms
+'Wang38.Admissible' does not depend on any axioms
+'Wang38.Integral' depends on axioms: [propext, Quot.sound]
+'Wang38.ClearsDenominators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.ExactLevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.ColumnsInLine' does not depend on any axioms
+'Wang38.RankOneMod' does not depend on any axioms
+'Wang38.Primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.GeneratedPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Conjecture38I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Conjecture38II' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.generated_is_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.no_admissible_dimension_one' depends on axioms: [propext, Quot.sound]
+'Wang38.conjecture38I_dimension_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.sumI_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.sumI_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.dotI_comm' depends on axioms: [propext, Quot.sound]
+'Wang38.dotI_add_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.dotI_smul_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.dotI_linear_combination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.int_square_nonnegative' depends on axioms: [propext, Quot.sound]
+'Wang38.int_square_positive' depends on axioms: [propext, Quot.sound]
+'Wang38.dotI_self_nonnegative' depends on axioms: [propext, Quot.sound]
+'Wang38.dotI_self_eq_zero' depends on axioms: [propext, Quot.sound]
+'Wang38.oddPrime_ge_three' depends on axioms: [propext, Quot.sound]
+'Wang38.gcd_prime_nonzero_residue' depends on axioms: [propext, Quot.sound]
+'Wang38.prime_cancel_nonzero_residue' depends on axioms: [propext, Quot.sound]
+'Wang38.inner_product_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.orthogonal_or_equal_up_to_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.sumQ_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.sumQ_intCast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.numerator_column_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.nonzero_norm_bound' depends on axioms: [propext, Quot.sound]
+'Wang38.nonzero_product_mod' depends on axioms: [propext, Quot.sound]
+'Wang38.generated_dimension_le_prime_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.no_generated_above_prime_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.dotI_zero_left' depends on axioms: [propext, Quot.sound]
+'Wang38.integer_unit_dot_nonzero' depends on axioms: [propext, Quot.sound]
+'Wang38.numerator_column_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.nonzero_residue_column' depends on axioms: [propext, Quot.sound]
+'Wang38.numerator_full_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Frequency.sumN' does not depend on any axioms
+'Wang38.Frequency.sumN_add' depends on axioms: [propext]
+'Wang38.Frequency.sumN_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Frequency.sumN_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Frequency.mass' does not depend on any axioms
+'Wang38.Frequency.squareMass' does not depend on any axioms
+'Wang38.Frequency.excessTerm' does not depend on any axioms
+'Wang38.Frequency.sum_excess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Frequency.most_frequent_magnitude' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.Frequency.weighted_dimension_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.magnitudeCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.maxMagnitude' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.magnitude_le_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.sumN_eq_sum_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.magnitude_histogram_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.magnitude_histogram_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.magnitude_histogram_squareMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.vector_frequency_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.vector_frequency_dimension_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.orthogonal_matrix_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.orthogonal_transpose_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.orthogonal_transpose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.numerator_columns_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.oddPrime_isPrime' depends on axioms: [propext]
+'Wang38.intCast_mod_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.nonzero_residue_line_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residue_class_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.swapVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.deltaVector' does not depend on any axioms
+'Wang38.dotI_delta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.swapVector_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.dotI_swapVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.swapVector_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.same_residue_orthogonal_or_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.swapVector_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.unequal_swap_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residue_pair_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.no_disjoint_varying_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residue_block_two_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residue_block_one_exception' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.square_pair_le_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.coordinate_abs_lt_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.delta_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.add_delta_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residue_block_exchange_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.SameAbs' does not depend on any axioms
+'Wang38.sameAbs_refl' does not depend on any axioms
+'Wang38.sameAbs_symm' depends on axioms: [propext]
+'Wang38.sameAbs_trans' depends on axioms: [propext]
+'Wang38.sameAbs_mul_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.sameAbs_sign_mul' depends on axioms: [propext]
+'Wang38.sameAbs_cast_of_natAbs_eq' depends on axioms: [propext, Quot.sound]
+'Wang38.absResidueBlock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.mem_absResidueBlock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.self_mem_absResidueBlock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.exists_maximal_absResidueBlock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.magnitudeCount_le_maximal_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.orientSign' depends on axioms: [propext, Quot.sound]
+'Wang38.orientSign_cases' depends on axioms: [propext, Quot.sound]
+'Wang38.orientSign_square' depends on axioms: [propext, Quot.sound]
+'Wang38.orientSign_on_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.signed_vector_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.signed_rows_differ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.generated_dimension_le_twice_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.conjecture38II' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.residueMatrix' depends on axioms: [propext, Quot.sound]
+'Wang38.PublishedGeneratedPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.PublishedConjecture38I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.PublishedConjecture38II' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.matrix_rank_one_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_generated_implies_basis_generated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38II' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dotI_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.exists_norm_divisible_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.exists_admissible_norm_divisible_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.QVector' does not depend on any axioms
+'Wang38I.dotQ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.castVector' depends on axioms: [propext, Quot.sound]
+'Wang38I.dotQ_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dotQ_add_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dotQ_add_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dotQ_mul_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dotQ_mul_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dotQ_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.mem_neighbor_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.base_mem_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.lift_mem_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.ones' depends on axioms: [propext, Quot.sound]
+'Wang38I.ones_mem_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.numerator_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.numerator_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.norm_sum_parity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.ones_characteristic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_is_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dotQ_single_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dotI_sub_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dotQ_sub_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dual_has_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.dual_numerator_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_self_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.fractionalCast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_fg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_isLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_dualSubmodule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.rankOneMod_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.generated_implies_published' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.no_admissible_dimension_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.published_conjecture38I_dimension_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.column_sums_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.frame_column_sums' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.regular_of_column_sums' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.orient_neighbor_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.frame_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_frame_integral_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.neighbor_frame_nonintegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.exactLevel_of_numerator_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.published_matrix_of_neighbor_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.uniformMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.uniformNumerator' does not depend on any axioms
+'Wang38I.uniform_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.uniform_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.uniform_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.uniform_numerator_mod' depends on axioms: [propext]
+'Wang38I.uniform_residue_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.double_uniform_residue_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.reflectionMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.reflectionNumerator' does not depend on any axioms
+'Wang38I.reflection_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.reflection_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.reflection_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.balanced_reflection_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.sumI_mod_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.prime_three_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.prime_three_dimension_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.ternarySign' does not depend on any axioms
+'Wang38I.ternarySign_spec' depends on axioms: [propext, Quot.sound]
+'Wang38I.sign_norm' depends on axioms: [propext, Quot.sound]
+'Wang38I.sign_sum_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.sign_sum_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.sign_sum_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.prime_three_dimension_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.published_conjecture38I_prime_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.source_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.published_matrix_of_orthonormal_Z_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.IntegralOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.integralOn_of_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitPerp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.mem_unitPerp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.mem_unitComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitProjection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitProjection_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitProjection_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitProjection_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitProjection_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unit_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unit_decomposition_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unit_pairing_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitComplement_eq_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitComplement_isLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitComplement_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitJoin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitSplittingEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitSplittingEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitPerp_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitComplement_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.unitComplement_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.shortVectorCovolumeCap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.sqrt_two_lt_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.ball_sqrt_three_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.shortVectorCovolumeCap_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.exists_norm_sq_lt_three_of_covolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.exists_unit_or_root_of_covolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.exists_unit_or_root_covolume_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.exists_unit_or_root_covolume_sq_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.Classification.extended_basis_integer_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.dual_basis_mem_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.integer_gram_det_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_integer_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.covolume_sq_eq_gram_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.real_inner_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_real_integer_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_covolume_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_exists_unit_or_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_inner_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.half_root_not_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.root_has_odd_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.root_has_pairing_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.root_pairing_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootPerp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.mem_rootPerp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.mem_rootComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootComplement_discreteTopology' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootProjection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootProjection_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootProjection_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootProjection_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.twice_rootProjection_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootComplement_isZLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootPerp_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootComplement_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootPairingMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootPairingMap_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootPairingMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityLattice_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.mem_rootParityLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityLattice_discreteTopology' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.twice_mem_rootParityLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityLattice_isZLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityKernel_index_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityLattice_relIndex_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityLattice_covolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.root_mem_rootParityLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.complement_mem_rootParityLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParityJoin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParity_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParitySplitting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootParitySplitting_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.rootComplement_covolume_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.no_root_rank_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_rank_one_has_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_unit_or_orthogonal_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.selfDual_unit_or_normFour' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.standardIntegerLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.mem_standardIntegerLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.standardIntegerLattice_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_double_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_coset_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_integral_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_noUnit_representative_nonintegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.Classification.half_integer_of_double_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_noUnit_half_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_toggle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_noUnit_minimal_half_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.half_coordinates_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.integer_vector_even_norm_of_half_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.Classification.indexTwo_inner_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_standard_alternative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_standard_norm_sq_alternative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.Classification.normFourCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFourNeighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.mem_normFourNeighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.half_normFour_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.half_mem_normFourNeighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFourCore_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.twice_mem_normFourCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFour_has_odd_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFourNeighbor_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFourNeighbor_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFour_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.mem_normFourCore_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFourCore_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFour_mem_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFourNeighbor_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.twice_mem_original_of_normFourNeighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.Classification.normFourNeighbor_discreteTopology' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFourNeighbor_isZLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.normFour_unit_or_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitProjection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitProjection_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitProjection_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitProjection_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitProjection_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnit_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitComplement_isZLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitComplement_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitPerp_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitComplement_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitJoin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitSplittingEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitSplittingEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitExtendBasis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitExtendBasis_inl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitExtendBasis_inr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitExtendBasis_orthonormal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.realUnitExtendBasis_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.isometryLatticeMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.mem_isometryLatticeMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.isometryLatticeMap_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.isometryLatticeMap_inf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.isometryLatticeMap_relIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.orthonormal_span_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_isometry_alternative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.indexTwo_orthonormalIntegerBasis_alternative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.Classification.indexTwo_orthonormalIntegerBasis_norm_sq_alternative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.Classification.OddLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.lowRank_orthonormal_integer_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.Classification.odd_lowRank_orthonormal_integer_basis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Wang38I.rationalRealMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.rationalRealMap_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.rationalRealMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.rationalRealMap_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.realNeighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.rational_coordinate_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.real_coordinate_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.realNeighbor_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.integral_cast_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.realNeighbor_selfDual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.integral_selfDual_discrete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.realNeighbor_isZLattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.rationalNeighbor_orthonormal_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38I.published_conjecture38I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Wang38.published_conjecture38' depends on axioms: [propext, Classical.choice, Quot.sound]
+COMPILATION_EXIT_CODE=0
+UTC_COMPILE_END=2026-10-10T08:17:43+00:00
